@@ -1,0 +1,207 @@
+[
+  {
+    "check": "five_distinct_models",
+    "status": "PASS",
+    "detail": [
+      "LogisticRegression",
+      "GaussianNB",
+      "DecisionTree",
+      "RandomForest",
+      "HistGradientBoosting"
+    ]
+  },
+  {
+    "check": "trip_grouping_LogisticRegression",
+    "status": "PASS",
+    "detail": {
+      "folds": 3,
+      "validation_trip_union": 80
+    }
+  },
+  {
+    "check": "trip_grouping_GaussianNB",
+    "status": "PASS",
+    "detail": {
+      "folds": 3,
+      "validation_trip_union": 80
+    }
+  },
+  {
+    "check": "trip_grouping_DecisionTree",
+    "status": "PASS",
+    "detail": {
+      "folds": 3,
+      "validation_trip_union": 80
+    }
+  },
+  {
+    "check": "trip_grouping_RandomForest",
+    "status": "PASS",
+    "detail": {
+      "folds": 3,
+      "validation_trip_union": 80
+    }
+  },
+  {
+    "check": "trip_grouping_HistGradientBoosting",
+    "status": "PASS",
+    "detail": {
+      "folds": 3,
+      "validation_trip_union": 80
+    }
+  },
+  {
+    "check": "reproduced_saved_metrics",
+    "status": "PASS",
+    "detail": {
+      "student_macro_f1": 0.9699424627766091,
+      "top1_reference_agreement": 0.953952139231327,
+      "candidate_binary_log_loss": 0.03704374088171728
+    }
+  },
+  {
+    "check": "deterministic_final_refit",
+    "status": "PASS",
+    "detail": {
+      "seconds": 4.096190899999783,
+      "held_out_candidate_rows": 4000
+    }
+  },
+  {
+    "check": "handler_ten_development_trips",
+    "status": "PASS",
+    "detail": {
+      "mode": "development",
+      "partition": "student_test",
+      "trips": [
+        "00000000",
+        "00000007",
+        "00000009",
+        "00000040",
+        "00000052",
+        "00000056",
+        "00000065",
+        "00000076",
+        "00000077",
+        "00000091"
+      ],
+      "reserved_evaluator_verified": false,
+      "message": "Permitted student-test demonstration data"
+    }
+  },
+  {
+    "check": "invalid_identifier_schema_rejected",
+    "status": "PASS",
+    "detail": "Pydantic request-schema test; HTTP transport unverified"
+  },
+  {
+    "check": "unknown_trip_handler_rejected",
+    "status": "PASS",
+    "detail": "Handler raises HTTPException(404); transport unverified"
+  },
+  {
+    "check": "api_handler_inference_00000000",
+    "status": "PASS",
+    "detail": {
+      "transport": "direct validated Python handler; not HTTP",
+      "seconds": 1.4479155999997602,
+      "observations": 2503
+    }
+  },
+  {
+    "check": "api_handler_inference_00000007",
+    "status": "PASS",
+    "detail": {
+      "transport": "direct validated Python handler; not HTTP",
+      "seconds": 0.549077699999998,
+      "observations": 1354
+    }
+  },
+  {
+    "check": "api_handler_inference_00000009",
+    "status": "PASS",
+    "detail": {
+      "transport": "direct validated Python handler; not HTTP",
+      "seconds": 0.9463383000002068,
+      "observations": 1049
+    }
+  },
+  {
+    "check": "api_handler_inference_00000040",
+    "status": "PASS",
+    "detail": {
+      "transport": "direct validated Python handler; not HTTP",
+      "seconds": 1.619875299999876,
+      "observations": 2995
+    }
+  },
+  {
+    "check": "api_handler_inference_00000052",
+    "status": "PASS",
+    "detail": {
+      "transport": "direct validated Python handler; not HTTP",
+      "seconds": 0.3279198999998698,
+      "observations": 262
+    }
+  },
+  {
+    "check": "api_handler_inference_00000056",
+    "status": "PASS",
+    "detail": {
+      "transport": "direct validated Python handler; not HTTP",
+      "seconds": 4.285106999999698,
+      "observations": 3958
+    }
+  },
+  {
+    "check": "api_handler_inference_00000065",
+    "status": "PASS",
+    "detail": {
+      "transport": "direct validated Python handler; not HTTP",
+      "seconds": 0.6887311999998929,
+      "observations": 768
+    }
+  },
+  {
+    "check": "api_handler_inference_00000076",
+    "status": "PASS",
+    "detail": {
+      "transport": "direct validated Python handler; not HTTP",
+      "seconds": 2.5770150000003014,
+      "observations": 1486
+    }
+  },
+  {
+    "check": "api_handler_inference_00000077",
+    "status": "PASS",
+    "detail": {
+      "transport": "direct validated Python handler; not HTTP",
+      "seconds": 1.997144599999956,
+      "observations": 3911
+    }
+  },
+  {
+    "check": "api_handler_inference_00000091",
+    "status": "PASS",
+    "detail": {
+      "transport": "direct validated Python handler; not HTTP",
+      "seconds": 0.8261463999997432,
+      "observations": 874
+    }
+  },
+  {
+    "check": "repeated_request_deterministic",
+    "status": "PASS",
+    "detail": "Same request predicts the same sequence"
+  },
+  {
+    "check": "reserved_mode_no_development_fallback",
+    "status": "PASS",
+    "detail": "Reserved dataset absent; zero fabricated trip choices"
+  },
+  {
+    "check": "live_http_and_browser",
+    "status": "UNVERIFIED",
+    "detail": "Windows sandbox blocks sockets, including asyncio socketpair. TestClient could not start; direct handlers and Pydantic schemas tested instead. Browser automation also unavailable."
+  }
+]

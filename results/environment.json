@@ -1,0 +1,9 @@
+{
+  "python": "3.11.9",
+  "numpy": "2.0.0",
+  "scipy": "1.16.2",
+  "sklearn": "1.5.0",
+  "pandas": "2.2.2",
+  "platform": "Windows-10-10.0.26300-SP0",
+  "seed": 2911
+}

@@ -1,0 +1,195 @@
+{
+  "verdict": "NOT READY",
+  "reason": "Required public repository and genuine UI/API/Folium screenshots missing; live HTTP, physical two-laptop and reserved-trip verification unavailable. Core model, optimisation, decoder and validated-handler tests completed.",
+  "matrix": [
+    {
+      "requirement": "Dataset extraction and formats",
+      "source": "Dataset Exploration pp1-2",
+      "evidence": "360/360 extracted files CRC-matched to source ZIP; inventory.csv",
+      "status": "PASS",
+      "corrective_action": ""
+    },
+    {
+      "requirement": "EDA and topology",
+      "source": "Dataset Exploration pp2-4",
+      "evidence": "inventory.csv, eda_summary.png, eda_example.png",
+      "status": "PASS",
+      "corrective_action": ""
+    },
+    {
+      "requirement": "Reference-derived labels",
+      "source": "Dataset Exploration p3",
+      "evidence": "core.align_reference; DATA_DICTIONARY; confidence coverage",
+      "status": "PASS",
+      "corrective_action": "Resolve official final scorer when supplied; weak-label limitations retained"
+    },
+    {
+      "requirement": "Features and candidates",
+      "source": "Main Guidelines p2",
+      "evidence": "core.Geometry; 15 features; observed candidate misses",
+      "status": "PASS",
+      "corrective_action": ""
+    },
+    {
+      "requirement": "Five distinct models",
+      "source": "Models pp1-4",
+      "evidence": "model_metrics.csv, five saved model files, cv_folds.json",
+      "status": "PASS",
+      "corrective_action": ""
+    },
+    {
+      "requirement": "Trip-grouped CV",
+      "source": "Models p4",
+      "evidence": "Five model fold manifests, all 80 train trips, no overlap",
+      "status": "PASS",
+      "corrective_action": ""
+    },
+    {
+      "requirement": "Bayesian optimisation",
+      "source": "Deliverables p5",
+      "evidence": "10 logged trials; GP surrogate and expected improvement",
+      "status": "PASS",
+      "corrective_action": ""
+    },
+    {
+      "requirement": "HMM/Viterbi implementation",
+      "source": "Deliverables pp5-6",
+      "evidence": "core.py; exhaustive path and normalised-transition tests",
+      "status": "PASS",
+      "corrective_action": ""
+    },
+    {
+      "requirement": "Classifier versus HMM comparison",
+      "source": "Deliverables pp5-6",
+      "evidence": "decoder_metrics.csv; all ten student-test predictions",
+      "status": "PASS",
+      "corrective_action": ""
+    },
+    {
+      "requirement": "Sequence-level diagnostics",
+      "source": "Models p5",
+      "evidence": "continuity, arc-set metrics and ordered matching ratio",
+      "status": "PASS",
+      "corrective_action": ""
+    },
+    {
+      "requirement": "Folium HTML generation",
+      "source": "Deliverables p6",
+      "evidence": "results/maps/eda_example.html and prediction_example.html; genuine Folium core",
+      "status": "PASS",
+      "corrective_action": ""
+    },
+    {
+      "requirement": "Folium screenshot in report",
+      "source": "Deliverables p6",
+      "evidence": "HTML generated, browser capture prohibited/unavailable",
+      "status": "FAIL",
+      "corrective_action": "Capture the actual map in an authorised browser and include screenshot"
+    },
+    {
+      "requirement": "FastAPI implementation and schemas",
+      "source": "Models pp5-6",
+      "evidence": "api.py; real validated handler tests for all ten accessible trips",
+      "status": "PASS",
+      "corrective_action": ""
+    },
+    {
+      "requirement": "Live HTTP integration",
+      "source": "Models pp5-6",
+      "evidence": "Socket restrictions block loopback and TestClient event loop",
+      "status": "UNVERIFIED",
+      "corrective_action": "Run API/UI HTTP tests in an unrestricted local terminal"
+    },
+    {
+      "requirement": "Evaluator UI code",
+      "source": "Main Guidelines p2",
+      "evidence": "ui/index.html with real fetch, loading/error states, SVG geometry",
+      "status": "PASS",
+      "corrective_action": "Browser rendering and interactions still need verification"
+    },
+    {
+      "requirement": "UI screenshots and rendering",
+      "source": "Deliverables pp6-7",
+      "evidence": "No screenshot fabricated; browser control stopped by URL-verification restriction",
+      "status": "FAIL",
+      "corrective_action": "Capture working interface during actual demo"
+    },
+    {
+      "requirement": "API log screenshots",
+      "source": "Deliverables pp6-7",
+      "evidence": "Actual handler log exists; no live-network log screenshot",
+      "status": "FAIL",
+      "corrective_action": "Capture actual receiving-laptop API logs"
+    },
+    {
+      "requirement": "Physical two-laptop deployment",
+      "source": "Main Guidelines p2",
+      "evidence": "README exact-origin and network setup instructions",
+      "status": "UNVERIFIED",
+      "corrective_action": "Run on two permitted physical laptops"
+    },
+    {
+      "requirement": "Reserved evaluator trips",
+      "source": "Models pp5-6",
+      "evidence": "Dataset unavailable; evaluator mode lists zero trips without fallback",
+      "status": "UNVERIFIED",
+      "corrective_action": "Add reserved trips and test all ten"
+    },
+    {
+      "requirement": "Reference isolation",
+      "source": "Assessment p3",
+      "evidence": "Inference function has no reference access; references read after prediction; response privacy checks",
+      "status": "PASS",
+      "corrective_action": ""
+    },
+    {
+      "requirement": "Reproducibility",
+      "source": "Assessment pp1-3",
+      "evidence": "Saved metrics reproduced; independently refitted model matches predictions",
+      "status": "PASS",
+      "corrective_action": ""
+    },
+    {
+      "requirement": "Dependency clean installation",
+      "source": "User final audit",
+      "evidence": "Runtime verified; pip network unavailable; vendor mapping sources licensed",
+      "status": "UNVERIFIED",
+      "corrective_action": "Install requirements in fresh environment and rerun tests"
+    },
+    {
+      "requirement": "Public GitHub repository",
+      "source": "Deliverables pp1-2",
+      "evidence": "Complete local source and artifacts; CLI authentication invalid",
+      "status": "FAIL",
+      "corrective_action": "Authenticate and publish repository, then verify visibility"
+    },
+    {
+      "requirement": "Consolidated PDF",
+      "source": "Deliverables pp2-7",
+      "evidence": "report.py generates actual-results report; mandatory screenshots absent",
+      "status": "FAIL",
+      "corrective_action": "Add genuine screenshots and final deployment evidence"
+    },
+    {
+      "requirement": "Independent work/provenance",
+      "source": "Assessment pp2-3",
+      "evidence": "DECISIONS, PROVENANCE, source manifests and experiment histories",
+      "status": "PASS",
+      "corrective_action": "Team must review, explain, reproduce and disclose AI assistance"
+    },
+    {
+      "requirement": "External plagiarism verification",
+      "source": "User final audit",
+      "evidence": "No checker run; no percentage invented",
+      "status": "UNVERIFIED",
+      "corrective_action": "Optional external checker if available"
+    },
+    {
+      "requirement": "Security review",
+      "source": "User final audit",
+      "evidence": "SECURITY_AUDIT; path validation; no credentials; no protections changed",
+      "status": "PASS",
+      "corrective_action": ""
+    }
+  ]
+}

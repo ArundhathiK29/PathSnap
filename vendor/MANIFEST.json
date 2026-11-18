@@ -1,0 +1,124 @@
+[
+  {
+    "repository": "python-visualization/folium",
+    "commit": "5c460674cbe9c2c20f2b81fd3233c26e0a42676e",
+    "files": [
+      {
+        "path": "LICENSE.txt",
+        "sha": "b08ad7fc29e3d0fd422f2d9a1ee1a31b018cb4b7"
+      },
+      {
+        "path": "folium/__init__.py",
+        "sha": "67489f8c505ea6c323e2851d695b1a894254c210"
+      },
+      {
+        "path": "folium/elements.py",
+        "sha": "f52e8b6fa0bde5f60aa606adf7676aeb22b6bb2e"
+      },
+      {
+        "path": "folium/features.py",
+        "sha": "8f7e5230c7db2d4f54e94c4616e36b12fc8e2ed3"
+      },
+      {
+        "path": "folium/folium.py",
+        "sha": "d2be974c747ff1c2cc6f97dde188c88c8dba04ba"
+      },
+      {
+        "path": "folium/map.py",
+        "sha": "278b97a1bb550d5a5c6de94b5fe18d949ee5cad8"
+      },
+      {
+        "path": "folium/raster_layers.py",
+        "sha": "74bf6d0a76dea0943d96a1c3aa30353f61d624c4"
+      },
+      {
+        "path": "folium/template.py",
+        "sha": "1d3cb6aa0d50a21723bb842226d4e5485cfa841c"
+      },
+      {
+        "path": "folium/utilities.py",
+        "sha": "eaf1bc4df8b9e62c0af585a46ac26c9200f2e732"
+      },
+      {
+        "path": "folium/vector_layers.py",
+        "sha": "066efd6ac2ba74c603a4edec51cf6a8ba2600380"
+      }
+    ]
+  },
+  {
+    "repository": "python-visualization/branca",
+    "commit": "0590552ac97729b9fd06dc82e20be433c55fe8fc",
+    "files": [
+      {
+        "path": "LICENSE.txt",
+        "sha": "ba66702cdc4795d0481fe860ef2ac694ce52cd06"
+      },
+      {
+        "path": "branca/__init__.py",
+        "sha": "75c7adcc5f0394e8baa850c2e5e5086c58a4f375"
+      },
+      {
+        "path": "branca/_cnames.json",
+        "sha": "3cf64803c96814befabe5dbdf796e2feca94aa83"
+      },
+      {
+        "path": "branca/_schemes.json",
+        "sha": "449f6cfaa5c9ba5bd25e3445ff00bba0ab2b67f3"
+      },
+      {
+        "path": "branca/colormap.py",
+        "sha": "2e76ba548886c89aecfef613df6c2ae43ed722ce"
+      },
+      {
+        "path": "branca/element.py",
+        "sha": "853ca163ea109147f3a10818591cfff9f6afab11"
+      },
+      {
+        "path": "branca/scheme_base_codes.json",
+        "sha": "deb58b19c48b9c0cd044876e47595bc40ba46caf"
+      },
+      {
+        "path": "branca/scheme_info.json",
+        "sha": "bd0088f557818367830066971393785358addc70"
+      },
+      {
+        "path": "branca/utilities.py",
+        "sha": "14a1d4664c0dd9851bbcdd2c34f5797e17a8adf3"
+      },
+      {
+        "path": "branca/templates/color_scale.js",
+        "sha": "c49fd24d8f3fec448afe37ee19f8cc9419d8c086"
+      }
+    ]
+  },
+  {
+    "repository": "geopandas/xyzservices",
+    "commit": "6036e8174b16cf7294b99340cd3437196f7dd011",
+    "files": [
+      {
+        "path": "LICENSE",
+        "sha": "da5009393ffd5d7e2f32e8ad876f073b786a421b"
+      },
+      {
+        "path": "xyzservices/__init__.py",
+        "sha": "7b42079e91ccb0a70f9b995a8dcfbadbf25f2d16"
+      },
+      {
+        "path": "xyzservices/data/__init__.py",
+        "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+      },
+      {
+        "path": "xyzservices/data/providers.json",
+        "sha": "7468e47f8245087dc603631fd91e6c9aba4ce1b9"
+      },
+      {
+        "path": "xyzservices/lib.py",
+        "sha": "34e208b11619605e18f26157dee341260151d756"
+      },
+      {
+        "path": "xyzservices/providers.py",
+        "sha": "8cb3d8cffcbdd17e4ce494139c6703dab1e7ed1a"
+      }
+    ]
+  }
+]

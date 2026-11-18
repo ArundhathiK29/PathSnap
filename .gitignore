@@ -1,0 +1,9 @@
+__pycache__/
+.pytest_cache/
+.venv/
+cache/
+*.log
+.env
+dataset/
+*.zip
+results/pdf_preview/

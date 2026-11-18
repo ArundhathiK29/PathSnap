@@ -1,0 +1,42 @@
+{
+  "partitions": {
+    "gps_count": {
+      "student_test": 19160,
+      "train": 208417
+    },
+    "confident_labels": {
+      "student_test": 13790,
+      "train": 126967
+    },
+    "gaps_gt_1s": {
+      "student_test": 264,
+      "train": 7284
+    },
+    "reference_discontinuities": {
+      "student_test": 1,
+      "train": 13
+    }
+  },
+  "training_candidate_rows": 153552,
+  "training_positive_rate": 0.125,
+  "features": [
+    "distance_m",
+    "distance_rank",
+    "projection_fraction",
+    "heading_cosine",
+    "segment_length_m",
+    "gps_speed_mps",
+    "time_gap_s",
+    "displacement_m",
+    "previous_distance_m",
+    "next_distance_m",
+    "in_degree",
+    "out_degree",
+    "heading_available",
+    "distance_over_best",
+    "speed_heading_interaction"
+  ],
+  "seed": 2911,
+  "sample_per_trip": 240,
+  "label_warning": "All observation-level labels are reference-derived weak labels, not independent ground truth."
+}

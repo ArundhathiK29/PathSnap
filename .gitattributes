@@ -1,0 +1,7 @@
+* text=auto eol=lf
+*.pdf binary
+*.joblib binary
+*.png binary
+*.jpg binary
+*.zip binary
+vendor/** -text

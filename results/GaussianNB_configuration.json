@@ -1,0 +1,9 @@
+{
+  "memory": null,
+  "verbose": false,
+  "standardscaler__copy": true,
+  "standardscaler__with_mean": true,
+  "standardscaler__with_std": true,
+  "gaussiannb__priors": null,
+  "gaussiannb__var_smoothing": 1e-06
+}

@@ -1,0 +1,192 @@
+[
+  {
+    "trip_id": "00000000",
+    "transport": "direct Python handler",
+    "summary": {
+      "gps_observations": 2503,
+      "reconstructed_arcs": 260,
+      "decoder_resets": 2,
+      "unconnected_stitch_breaks": 2,
+      "direct_continuity": 0.9896083133493205,
+      "inference_seconds": 1.1289452000000892,
+      "total_seconds": 1.3362584000001334
+    },
+    "evaluation": {
+      "reference_derived_top1_agreement": 0.9798456260720412,
+      "scored_observations": 2332,
+      "label_coverage": 0.9316819816220535,
+      "label_basis": "Chronological reference-route-derived weak labels; not independently verified pointwise ground truth"
+    }
+  },
+  {
+    "trip_id": "00000007",
+    "transport": "direct Python handler",
+    "summary": {
+      "gps_observations": 1354,
+      "reconstructed_arcs": 124,
+      "decoder_resets": 0,
+      "unconnected_stitch_breaks": 0,
+      "direct_continuity": 0.9985218033998522,
+      "inference_seconds": 0.4246869000003244,
+      "total_seconds": 0.5060757000001104
+    },
+    "evaluation": {
+      "reference_derived_top1_agreement": 0.9964349376114082,
+      "scored_observations": 1122,
+      "label_coverage": 0.8286558345642541,
+      "label_basis": "Chronological reference-route-derived weak labels; not independently verified pointwise ground truth"
+    }
+  },
+  {
+    "trip_id": "00000009",
+    "transport": "direct Python handler",
+    "summary": {
+      "gps_observations": 1049,
+      "reconstructed_arcs": 539,
+      "decoder_resets": 0,
+      "unconnected_stitch_breaks": 0,
+      "direct_continuity": 0.9351145038167938,
+      "inference_seconds": 0.8249729999997726,
+      "total_seconds": 0.8865431999997782
+    },
+    "evaluation": {
+      "reference_derived_top1_agreement": 0.9492537313432836,
+      "scored_observations": 670,
+      "label_coverage": 0.6387035271687321,
+      "label_basis": "Chronological reference-route-derived weak labels; not independently verified pointwise ground truth"
+    }
+  },
+  {
+    "trip_id": "00000040",
+    "transport": "direct Python handler",
+    "summary": {
+      "gps_observations": 2995,
+      "reconstructed_arcs": 463,
+      "decoder_resets": 1,
+      "unconnected_stitch_breaks": 0,
+      "direct_continuity": 0.9919839679358717,
+      "inference_seconds": 1.2960806000000957,
+      "total_seconds": 1.485392199999751
+    },
+    "evaluation": {
+      "reference_derived_top1_agreement": 0.986857825567503,
+      "scored_observations": 2511,
+      "label_coverage": 0.8383973288814691,
+      "label_basis": "Chronological reference-route-derived weak labels; not independently verified pointwise ground truth"
+    }
+  },
+  {
+    "trip_id": "00000052",
+    "transport": "direct Python handler",
+    "summary": {
+      "gps_observations": 262,
+      "reconstructed_arcs": 93,
+      "decoder_resets": 0,
+      "unconnected_stitch_breaks": 0,
+      "direct_continuity": 0.9655172413793104,
+      "inference_seconds": 0.2750952999999754,
+      "total_seconds": 0.2948004999998375
+    },
+    "evaluation": {
+      "reference_derived_top1_agreement": 1.0,
+      "scored_observations": 212,
+      "label_coverage": 0.8091603053435115,
+      "label_basis": "Chronological reference-route-derived weak labels; not independently verified pointwise ground truth"
+    }
+  },
+  {
+    "trip_id": "00000056",
+    "transport": "direct Python handler",
+    "summary": {
+      "gps_observations": 3958,
+      "reconstructed_arcs": 1563,
+      "decoder_resets": 3,
+      "unconnected_stitch_breaks": 1,
+      "direct_continuity": 0.9618397776093,
+      "inference_seconds": 4.007587199999762,
+      "total_seconds": 4.190188000000035
+    },
+    "evaluation": {
+      "reference_derived_top1_agreement": 0.9803501250446588,
+      "scored_observations": 2799,
+      "label_coverage": 0.7071753410813543,
+      "label_basis": "Chronological reference-route-derived weak labels; not independently verified pointwise ground truth"
+    }
+  },
+  {
+    "trip_id": "00000065",
+    "transport": "direct Python handler",
+    "summary": {
+      "gps_observations": 768,
+      "reconstructed_arcs": 242,
+      "decoder_resets": 3,
+      "unconnected_stitch_breaks": 1,
+      "direct_continuity": 0.9713168187744459,
+      "inference_seconds": 0.5509019999999509,
+      "total_seconds": 0.632238099999995
+    },
+    "evaluation": {
+      "reference_derived_top1_agreement": 0.9352640545144804,
+      "scored_observations": 587,
+      "label_coverage": 0.7643229166666666,
+      "label_basis": "Chronological reference-route-derived weak labels; not independently verified pointwise ground truth"
+    }
+  },
+  {
+    "trip_id": "00000076",
+    "transport": "direct Python handler",
+    "summary": {
+      "gps_observations": 1486,
+      "reconstructed_arcs": 559,
+      "decoder_resets": 1,
+      "unconnected_stitch_breaks": 1,
+      "direct_continuity": 0.9414141414141414,
+      "inference_seconds": 2.2037497000001167,
+      "total_seconds": 2.367671799999698
+    },
+    "evaluation": {
+      "reference_derived_top1_agreement": 0.9751737835153923,
+      "scored_observations": 1007,
+      "label_coverage": 0.6776581426648721,
+      "label_basis": "Chronological reference-route-derived weak labels; not independently verified pointwise ground truth"
+    }
+  },
+  {
+    "trip_id": "00000077",
+    "transport": "direct Python handler",
+    "summary": {
+      "gps_observations": 3911,
+      "reconstructed_arcs": 1327,
+      "decoder_resets": 0,
+      "unconnected_stitch_breaks": 0,
+      "direct_continuity": 0.9675191815856777,
+      "inference_seconds": 1.6059186000002228,
+      "total_seconds": 1.9046290999999655
+    },
+    "evaluation": {
+      "reference_derived_top1_agreement": 0.926905132192846,
+      "scored_observations": 1929,
+      "label_coverage": 0.49322423932498083,
+      "label_basis": "Chronological reference-route-derived weak labels; not independently verified pointwise ground truth"
+    }
+  },
+  {
+    "trip_id": "00000091",
+    "transport": "direct Python handler",
+    "summary": {
+      "gps_observations": 874,
+      "reconstructed_arcs": 349,
+      "decoder_resets": 0,
+      "unconnected_stitch_breaks": 0,
+      "direct_continuity": 0.9495990836197021,
+      "inference_seconds": 0.7151912999997876,
+      "total_seconds": 0.7686272999999346
+    },
+    "evaluation": {
+      "reference_derived_top1_agreement": 0.9533011272141707,
+      "scored_observations": 621,
+      "label_coverage": 0.7105263157894737,
+      "label_basis": "Chronological reference-route-derived weak labels; not independently verified pointwise ground truth"
+    }
+  }
+]
