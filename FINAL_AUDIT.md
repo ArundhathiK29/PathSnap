@@ -1,6 +1,6 @@
 # Final verification matrix
 
-Verdict: **NOT READY** for final hackathon submission. The local computational pipeline is implemented, trained and checked, but required publication and screenshot evidence are missing, and live/physical deployment plus reserved evaluation remain unverified.
+Verdict: **NOT READY** for final hackathon submission. Code, trained models, results and report are published in the public repository https://github.com/ArundhathiK29/PathSnap . Required genuine screenshots are still missing; live/physical deployment and reserved evaluation remain unverified.
 
 | Requirement | Source | Evidence / test executed | Status | Corrective action |
 |---|---|---|---|---|
@@ -26,7 +26,7 @@ Verdict: **NOT READY** for final hackathon submission. The local computational p
 | Reference isolation | Assessment p3 | Inference function has no reference access; references read after prediction; response privacy checks | PASS |  |
 | Reproducibility | Assessment pp1-3 | Saved metrics reproduced; independently refitted model matches predictions | PASS |  |
 | Dependency clean installation | User final audit | Runtime verified; pip network unavailable; vendor mapping sources licensed | UNVERIFIED | Install requirements in fresh environment and rerun tests |
-| Public GitHub repository | Deliverables pp1-2 | Complete local source and artifacts; CLI authentication invalid | FAIL | Authenticate and publish repository, then verify visibility |
+| Public GitHub repository | Deliverables pp1-2 | https://github.com/ArundhathiK29/PathSnap at 38b65877e864400975d73d308b1766c1a64c3088; 94 file blob hashes verified | PASS |  |
 | Consolidated PDF | Deliverables pp2-7 | report.py generates actual-results report; mandatory screenshots absent | FAIL | Add genuine screenshots and final deployment evidence |
 | Independent work/provenance | Assessment pp2-3 | DECISIONS, PROVENANCE, source manifests and experiment histories | PASS | Team must review, explain, reproduce and disclose AI assistance |
 | External plagiarism verification | User final audit | No checker run; no percentage invented | UNVERIFIED | Optional external checker if available |

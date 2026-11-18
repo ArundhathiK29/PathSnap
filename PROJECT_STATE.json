@@ -4,13 +4,13 @@
   "sample_per_trip": 240,
   "reserved_evaluator_trips": "not supplied",
   "physical_two_laptop": "unverified",
-  "github": "not published",
+  "github": "https://github.com/ArundhathiK29/PathSnap",
   "checkpoints": {
     "1_dataset": "completed",
     "2_five_models": "completed",
     "3_bayesian_hmm": "completed",
     "4_api_ui": "implemented; validated handler tests pass; HTTP/browser/two-laptop unverified",
-    "5_submission": "local artifacts produced; public repository and mandatory screenshots missing",
+    "5_submission": "public code, models, results and PDF published; mandatory screenshots missing",
     "6_final_audit": "completed with NOT READY verdict"
   },
   "best_model": "HistGradientBoosting",
@@ -19,6 +19,7 @@
   "student_hmm_top1_reference_agreement": 0.9705583756345177,
   "label_coverage": 0.7197286012526096,
   "test_results": "7 algorithm tests pass; 23 artifact/schema/handler checks pass; 1 live HTTP/browser check unverified",
-  "next_action": "Run unrestricted API/UI browser demo and capture genuine UI/API/Folium screenshots; publish repository using working GitHub authentication; test physical laptops and reserved evaluator data when provided",
-  "readiness": "NOT READY"
+  "next_action": "Run unrestricted API/UI browser demo and capture genuine UI/API/Folium screenshots; test physical laptops and reserved evaluator data when provided",
+  "readiness": "NOT READY",
+  "published_commit": "38b65877e864400975d73d308b1766c1a64c3088"
 }

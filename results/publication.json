@@ -1,0 +1,12 @@
+{
+  "repository": "ArundhathiK29/PathSnap",
+  "visibility": "public",
+  "verified_build_commit": "38b65877e864400975d73d308b1766c1a64c3088",
+  "verified_files": 94,
+  "all_published_blob_hashes_match": true,
+  "omitted": [
+    "raw dataset",
+    "large generated Folium HTML; generation code included"
+  ],
+  "note": "Subsequent documentation commit records verified publication; no experiment results changed."
+}

@@ -1,6 +1,6 @@
 {
   "verdict": "NOT READY",
-  "reason": "Required public repository and genuine UI/API/Folium screenshots missing; live HTTP, physical two-laptop and reserved-trip verification unavailable. Core model, optimisation, decoder and validated-handler tests completed.",
+  "reason": "Required genuine UI/API/Folium screenshots missing; live HTTP, physical two-laptop and reserved-trip verification unavailable. Public GitHub repository and complete computational pipeline published and verified.",
   "matrix": [
     {
       "requirement": "Dataset extraction and formats",
@@ -159,9 +159,9 @@
     {
       "requirement": "Public GitHub repository",
       "source": "Deliverables pp1-2",
-      "evidence": "Complete local source and artifacts; CLI authentication invalid",
-      "status": "FAIL",
-      "corrective_action": "Authenticate and publish repository, then verify visibility"
+      "evidence": "https://github.com/ArundhathiK29/PathSnap at 38b65877e864400975d73d308b1766c1a64c3088; 94 file blob hashes verified",
+      "status": "PASS",
+      "corrective_action": ""
     },
     {
       "requirement": "Consolidated PDF",
